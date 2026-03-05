@@ -1,5 +1,10 @@
 config.yml
 
+# AI tool local settings (each developer uses their own tool)
+.claude/
+.cursor/
+.aider*
+
 .DS_Store
 
 # Environments
