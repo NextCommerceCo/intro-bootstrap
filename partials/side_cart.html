@@ -9,8 +9,8 @@
     </div>
 </form>
 
-<script src="{% static 'shop/js/jscookie.js' %}"></script>
-<script src="{% static 'shop/js/cart.js' %}"></script>
+<script type="text/javascript" src="{{ 'js/jscookie.js'|asset_url }}"></script>  
+<script src="{{ 'js/cart.js'|asset_url }}"></script>
 
 <script>
     const SIDECART_MSGS  = {
@@ -43,7 +43,7 @@
         'apply_coupon': "{% t 'side_cart.default.apply_coupon' %}"
     }
 </script>
-<script src="{% static 'shop/js/side_cart.js' %}"></script>  
+<script type="text/javascript" src="{{ 'js/side_cart.js'|asset_url }}"></script>  
 
 <script>
     var sidecart_options = {
